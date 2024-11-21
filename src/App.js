@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Tecnologias from './components/Tecnologias.js';
+import TecnologiasFullSize from './components/TecnologiasFullSize.js';
+import Metodologias from './components/Metodologias.js';
+import MetodologiasFullSize from './components/MetodologiasFullSize.js';
+import Formulario from './components/Formulario.js';
+import Projetos from './components/Projetos.js';
+import Banner from './components/Banner.js';
+import Header from './components/Header.js';
+import Sidebar from './components/Sidebar.js';
+import Footer from './components/Footer.js';
+import './index.css';
+import './reset.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+<Header/>
+<Sidebar/>
+<Banner/>
+<Tecnologias/>
+<TecnologiasFullSize/>  
+<Projetos/>
+<Metodologias/> 
+<MetodologiasFullSize/>
+<Formulario/>
+<Footer/>
+</>
   );
 }
 
