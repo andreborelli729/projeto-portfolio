@@ -13,7 +13,7 @@ function Projetos() {
             <a href="https://guiageralolimpiadas.netlify.app/"><figure><img src={siteOlimipadas} className="projetosImg"></img><figcaption className="projetosFigcaption">Guia Geral das Olímpiadas</figcaption></figure></a>
             <a href="https://examplemadebyandreborelli.netlify.app/"><figure><img src={siteMetalium} className="projetosImg"></img><figcaption className="projetosFigcaption">Metalium</figcaption></figure></a>
             <a href="https://offspringtour.netlify.app/"><figure><img src={siteOffspring} className="projetosImg"></img><figcaption className="projetosFigcaption">Offspring Tour</figcaption></figure></a>
-            <a href="https://offspringtour.netlify.app/"><figure><img src={siteKellySlater} className="projetosImg"></img><figcaption className="projetosFigcaption">Kelly Slater Surf Co (Trabalhando nele atualmente...)</figcaption></figure></a>
+            <a href="https://kellyslaterwavecompanyexample.netlify.app/"><figure><img src={siteKellySlater} className="projetosImg"></img><figcaption className="projetosFigcaption">Kelly Slater Surf Co (Trabalhando nele atualmente...)</figcaption></figure></a>
 
         </section>
         </>
