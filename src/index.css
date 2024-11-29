@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --clr-andre-blue: #3d5a89;
@@ -14,7 +16,9 @@
 
 }
 
-
+body {
+  @apply font-mono
+}
 
 @media screen and (min-width: 310px) {
   *,
