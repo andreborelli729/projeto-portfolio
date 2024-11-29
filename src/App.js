@@ -9,7 +9,6 @@ import Header from './components/Header.js';
 import Sidebar from './components/Sidebar.js';
 import Footer from './components/Footer.js';
 import './index.css';
-import './reset.css';
 
 function App() {
   return (
